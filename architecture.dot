@@ -1,0 +1,28 @@
+digraph G {
+  node [shape=box];
+  subgraph cluster_storage {
+      
+      label = "Data";
+      "RDF Store"
+  }
+
+  subgraph cluster_gui {
+      rankdir=TB;
+
+      label = "GUI";
+      "Graph View"
+      "Timeline View"
+      "Table View"
+      "List View"
+      "Calendar View"
+  }
+
+  subgraph cluster_collectors {
+    label = "Collectors";
+    "Browser Plugin"
+    "Text Editor Plugin"
+    "CLI Client"
+  }
+  
+
+}

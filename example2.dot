@@ -1,0 +1,12 @@
+digraph G {
+  "Nicolas Wirth" -> "https://en.wikipedia.org/wiki/Niklaus_Wirth" [label = "Wikipage"]
+  "Nicolas Wirth" -> "A Plea for Lean Software" [ label = "is author of" ]
+  "A Plea for Lean Software" -> "Scientific Papaper" [label = "is a"]
+  "A Plea for Lean Software" -> "5" [label = "number of pages"]
+  "A Plea for Lean Software" -> "Feb 1995" [label = "date of publication"]
+  "A Plea for Lean Software" -> "Computer" [label = "published in"]
+  "A Plea for Lean Software" -> "~/Papers/wirth_a-plea-for-lean-software_1995.pdf" [label = "file link"]
+  "Computer" -> "Journal" [label = "is a"]
+  "Software expands to fill the available memory" -> "A Plea for Lean Software" [label = "source"]
+  
+}
