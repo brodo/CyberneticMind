@@ -37,3 +37,17 @@ The user interface is made up of a REPL, a graph viewer and a table viewer. The 
 ![Diagram of the overall architecture](./architecture.svg)
 
 The system is made up of a number of applications which can be categorized into three parts. The data is stored in an RDF database (Triplestore). The GUI implemented as a Desktop App in Rust. It is scriptable using LISP. Collectors can be written in any language and are adding data to the RDF store.
+
+## Transformers
+
+A core component of the system is a __transformer__ that converts data from one format into another.
+These can be connected to add new information to the system or generate views on existing information.i
+
+Like edges in a knowledge graph they connect different data formats and sources.
+
+### Example Setup
+
+1. word list 
+2. english word -> definition (as structured data)
+3. definition -> flashcards
+4. all flashcards -> list of flashcards due for review
