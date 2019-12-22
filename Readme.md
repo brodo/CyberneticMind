@@ -1,6 +1,13 @@
 # Personal Knowledge Base
 This documents lines out a vision for a personal knowledge base.
 
+## Inspiration
+
+- [David Allen - Getting Things Done](https://gettingthingsdone.com/)
+- [Lion Kimbro - How to Make a Complete Map of Every Thought you Think](https://users.speakeasy.net/~lion/nb/html/)
+- [Niklas Luhmann - Zettelkasten](https://niklas-luhmann-archiv.de/nachlass/zettelkasten)
+- Ted Nelson - Hypertext
+
 ## Use Case
 
 I am interested in the Paper "A Plea for lean software." by Nicolas With. I have used the browser plugin to automatically download the paper and add it and some meta information to the system. I can view this information as a graph:
