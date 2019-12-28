@@ -7,6 +7,7 @@ This documents lines out a vision for a personal knowledge base.
 - [Lion Kimbro - How to Make a Complete Map of Every Thought you Think](https://users.speakeasy.net/~lion/nb/html/)
 - [Niklas Luhmann - Zettelkasten](https://niklas-luhmann-archiv.de/nachlass/zettelkasten)
 - Ted Nelson - Hypertext
+- [Semantic Note Taking System](Semantic Note Taking System)
 
 ## Use Case
 
